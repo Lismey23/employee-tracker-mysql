@@ -178,6 +178,9 @@ async function addEmployee () {
                 }
             }
             console.log('New Employee has been added.');
+
+            // Insert the new employee to the table
+            
             connection.query(
                 'INSERT INTO employee SET ?',
                 {
