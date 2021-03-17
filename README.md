@@ -1,4 +1,4 @@
-# employee-tracker-mysql
+
 # Employee - tracker - MYSQL
 
 ![license](https://img.shields.io/badge/License-MIT-green.svg "License Badge")
@@ -50,7 +50,7 @@ GitHub profile: Lismey23
 
 
 ## Walkthrough video - Link 
-<a href="https://drive.google.com/file/d/1DBgIFenWMWdJ_V4Qt5T19Pc_uzzU_FhO/view">Professional README Generator Walkthrough video</a>
+<a href="https://drive.google.com/file/d/1IEYYnyRaPVqFb0NI8qe2eIjglRp_vXl5/view">Employee Tracker - Walkthrough video</a>
 
 
 ## GitHub Repo
