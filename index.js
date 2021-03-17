@@ -1,17 +1,16 @@
 const mysql = require('mysql');
 const inquire = require('inquirer');
 const consoleTable = require("console.table");
-const promisemysql = require("promise-mysql");
 const inquirer = require('inquirer');
 
 // Creating connection
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  port: 3360,
-  user: 'root',
-  password: 'Meytuty24',
-  database: 'employee_db',
+  host:'localhost',
+  port: 3306,
+  user:'root',
+  password:'Meytuty24',
+  database:'employee_db',
 });
 
 // Starting connection 
@@ -129,7 +128,7 @@ function viewEmpByDept() {
 
 
 
-function addEmployee () {
+async function addEmployee () {
 
     const employeeName = await inquirer.prompt(askName());
    
