@@ -1,0 +1,25 @@
+{
+  "name": "employee-tracker-mysql",
+  "version": "1.0.0",
+  "description": "![license](https://img.shields.io/badge/License-MIT-green.svg \"License Badge\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lismey23/employee-tracker-mysql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lismey23/employee-tracker-mysql/issues"
+  },
+  "homepage": "https://github.com/Lismey23/employee-tracker-mysql#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5"
+  }
+}
